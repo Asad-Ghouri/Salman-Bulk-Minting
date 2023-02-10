@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pressp2p';
+  src: url(./font/PressStart2P-Regular.ttf);
+}
+html {
+  scroll-behavior: smooth;
+  font-family: 'Pressp2p';
+  
+}
+
+*, html, body{
+
+  font-family: 'Pressp2p';
+  /* overflow-x: hidden; */
+}
+
+.minu-bg,.plus-bg{
+  background: black;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.input-bg{
+  background: rgb(255, 255, 255)!important;
+  padding: 7px;
+}
+
+
+.m-value{
+  margin-left: 6rem;
+}
+
+.mint-btn{
+  margin-top: 3rem;
+}
+
+.m-t{
+  margin-top: -17.1rem!important;
+  margin-left: 9rem!important;
+}
+
+.yellow p{
+  color: rgb(255 220 4) ;
+}
+.ca{
+  color: rgb(241, 91, 181);
+}
+
+.body{
+  background-color: rgb(20, 30, 55);
+
+}
+
+.bg-b{
+  /* background-image: url("https://boredape-minting-dapp.vercel.app/images/blur.jpeg"); */
+  background-image: url(./images/bg.jpeg);
+  background-repeat: repeat-x;  
+}
+
+@media (max-width : 600px){
+  *, html, body{
+    overflow-x: auto;
+  }
+}
+
+@media (max-width : 600px){
+  .db{
+    display: block!important;
+  }
+
+  .pmb{
+    margin-top: 2rem!important;
+    width: 101%!important;
+  }
+}
+
+.dapp{
+  color: white;
+}
+
+.first-accordition{
+  margin-top: 4rem;
+}
+.accorditions{
+  background-color: rgb(20, 30, 55);
+  margin-top: -1rem;
+}
+
+.ifram{
+  background-image: url(./images/bg.jpeg);
+  background-repeat: repeat-x; 
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.heropage{
+  background-color: rgb(20, 30, 55);
+}
+
+.faq{
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+  padding-top: 5rem;
+  color: white;
+}
+
+a{
+  cursor: pointer;
+}

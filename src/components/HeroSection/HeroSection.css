@@ -1,0 +1,136 @@
+
+
+.default:last-child  { 
+    margin: 0;
+} 
+
+.image-with-text { 
+    display: inline-block; 
+    width: 100%; 
+    padding-bottom: 40px;
+} 
+
+.home-page { 
+    margin:  0 auto;
+    background: var(--color_bg);
+} 
+
+.ant-spin-container { 
+    position: relative; 
+    transition: opacity .3s;
+} 
+
+.ant-spin-nested-loading { 
+    position: relative;
+} 
+
+.wrapper  {  
+    display: flex; 
+    -webkit-align-items: center; 
+    -moz-box-align: center; 
+    align-items: center; 
+    -webkit-justify-content: space-between; 
+    -moz-box-pack: justify; 
+    justify-content: space-between; 
+    /* margin-bottom: 25px;  */
+    position: relative;
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+} 
+
+.checkchanges{
+align-items: center;
+}
+
+
+.image  { 
+    -webkit-flex: 1 1; 
+    -moz-box-flex: 1; 
+    flex: 1 1; 
+    overflow: hidden; 
+    -webkit-transform: scale(1); 
+    transform: scale(1);
+} 
+
+.align-center { 
+    text-align: center!important;
+} 
+
+.content  { 
+    width: 67%; 
+    padding: 0 50px;
+    color: white; 
+    word-break: break-word;
+} 
+
+
+
+
+.image img  { 
+    width: 95%; 
+    /* transition: all .5s ease-in; 
+    min-height: 370px; */
+} 
+
+.image:hover img  { 
+    -webkit-transform: scale(1.15); 
+    transform: scale(1.15);
+} 
+
+
+.title  { 
+    font-weight: 700; 
+    font-size: 28px; 
+    line-height: 42px; 
+    color: var(--color_text_title); 
+    margin-bottom: 24px; 
+    word-break: break-all; 
+    text-align: left;
+} 
+
+.content .title  { 
+    font-size: 24px; 
+    line-height: 36px; 
+    margin-bottom: 12px;
+} 
+
+.content .subText  { 
+    font-weight: 400; 
+    font-size: 16px; 
+    line-height: 24px; 
+    margin-bottom: 22px; 
+    color: var(--color_text_content);
+} 
+
+.button-link  { 
+    display: inline-block; 
+    font-weight: 600; 
+    font-size: 14px; 
+    line-height: 16px; 
+    background: var(--color_button_main_bg); 
+    border-radius: 30px; 
+    -webkit-align-items: center; 
+    -moz-box-align: center; 
+    align-items: center; 
+    padding: 12px 17px; 
+    min-width: 108px; 
+    color: #fff; 
+    text-align: center;
+} 
+
+@media (max-width:800px){
+  .wrapper {
+    flex-wrap: wrap;
+  }
+  .content {
+    flex: auto;
+    width: max-content;
+    padding: 0;
+    padding-top: 2rem;
+  }
+  .wrapper{
+    padding-left: 1rem;
+  }
+
+}
